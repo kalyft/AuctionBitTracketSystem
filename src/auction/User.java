@@ -32,7 +32,6 @@ public class User {
 		try {
 			Bid bid = new Bid(this, item , offer);
 			auction.getAuctionTracker().recordUserBid(bid);
-			//auction.getAuctionTracker().recordLatestBidForItem(item, bid);
 		} catch (RuntimeException e) {
 			e.printStackTrace();
 			System.out.println(e.getMessage());
