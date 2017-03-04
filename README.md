@@ -2,4 +2,4 @@
 AuctionBitTracketSystem
 
 
-This is a simple auction trecker system.
+This is a simple auction bit trecker system.
